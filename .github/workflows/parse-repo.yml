@@ -37,10 +37,10 @@ jobs:
           echo "$HOME/.cargo/bin" >> $GITHUB_PATH
 
       - name: Install repolex
+        env:
+          GH_TOKEN: ${{ secrets.REPOLEX_PAT }}
         run: |
-          git clone https://github.com/repolex-ai/repolex.git /tmp/repolex
-          cd /tmp/repolex
-          uv tool install -e .
+          uv tool install "git+https://x-access-token:${GH_TOKEN}@github.com/repolex-ai/repolex.git"
 
       - name: Read manifest and find next tag
         id: find_tag
