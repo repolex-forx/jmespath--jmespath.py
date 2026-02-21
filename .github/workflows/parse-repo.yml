@@ -9,6 +9,9 @@ env:
   SOURCE_ORG: jmespath
   SOURCE_REPO: jmespath.py
 
+permissions:
+  contents: write  # Allow git push
+
 jobs:
   parse:
     runs-on: ubuntu-latest
