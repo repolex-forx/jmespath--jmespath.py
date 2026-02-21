@@ -40,7 +40,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.REPOLEX_PAT }}
         run: |
-          uv tool install "git+https://x-access-token:${GH_TOKEN}@github.com/repolex-ai/repolex.git"
+          uv tool install "git+https://x-access-token:${GH_TOKEN}@github.com/repolex-ai/repolex-parser-py.git"
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Read manifest and find next tag
@@ -91,8 +91,8 @@ jobs:
           REPOLEX_HOME: ${{ github.workspace }}
         run: |
           cd /tmp/source
-          rlex parse ${{ env.SOURCE_ORG }}/${{ env.SOURCE_REPO }}
-          rlex aggregate ${{ env.SOURCE_ORG }}/${{ env.SOURCE_REPO }}
+          repolex parse ${{ env.SOURCE_ORG }}/${{ env.SOURCE_REPO }}
+          repolex aggregate ${{ env.SOURCE_ORG }}/${{ env.SOURCE_REPO }}
 
       - name: Update manifest
         if: steps.find_tag.outputs.tag != ''
