@@ -10,6 +10,11 @@
       "tag": "0.0.2",
       "commit_sha": "126621f3811922129a9f906231deabb6aaa6902a",
       "parsed_at": "2026-02-25"
+    },
+    {
+      "tag": "0.0.3",
+      "commit_sha": "fd87696454ee10a38fc9c2622112d4be478615bc",
+      "parsed_at": "2026-02-26"
     }
   ]
 }
