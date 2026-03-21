@@ -4085,7 +4085,31 @@
         "aggregate/ast/e600d11e5d4e90b0d7f67882756fffc90a52eb36.nq.gz"
       ],
       "lsp": "aggregate/lsp/e600d11e5d4e90b0d7f67882756fffc90a52eb36.nq.gz",
-      "repolex": "aggregate/repolex/e600d11e5d4e90b0d7f67882756fffc90a52eb36.nq.gz"
+      "repolex": "aggregate/repolex/e600d11e5d4e90b0d7f67882756fffc90a52eb36.nq.gz",
+      "dep": "dep/e600d11e5d4e90b0d7f67882756fffc90a52eb36.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pytest",
+          "packageVersion": "9.0.2",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+        },
+        {
+          "packageName": "pytest-cov",
+          "packageVersion": "7.0.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubCommit": "224d8964caad90074a8cf6dc8720b8f70f31629b"
+        },
+        {
+          "packageName": "hypothesis",
+          "packageVersion": "6.99.9",
+          "githubOrg": "HypothesisWorks",
+          "githubRepo": "hypothesis",
+          "githubCommit": "HEAD"
+        }
+      ]
     },
     {
       "commit": "6ff419a8b171d055a9bfc6904605bceb8b7a80ef",
