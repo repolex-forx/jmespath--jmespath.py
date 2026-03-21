@@ -377,7 +377,17 @@
         "aggregate/ast/fd87696454ee10a38fc9c2622112d4be478615bc.nq.gz"
       ],
       "lsp": "aggregate/lsp/fd87696454ee10a38fc9c2622112d4be478615bc.nq.gz",
-      "repolex": "aggregate/repolex/fd87696454ee10a38fc9c2622112d4be478615bc.nq.gz"
+      "repolex": "aggregate/repolex/fd87696454ee10a38fc9c2622112d4be478615bc.nq.gz",
+      "dep": "dep/fd87696454ee10a38fc9c2622112d4be478615bc.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "tox",
+          "packageVersion": "4.9.0",
+          "githubOrg": "tox-dev",
+          "githubRepo": "tox",
+          "githubCommit": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69"
+        }
+      ]
     },
     {
       "commit": "54d06203a6664b9dc57486eec3b3444e0b8e0d9d",
