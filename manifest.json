@@ -3738,7 +3738,31 @@
         "aggregate/ast/1c46efc2fe6c92904076a7a552857db92be322ad.nq.gz"
       ],
       "lsp": "aggregate/lsp/1c46efc2fe6c92904076a7a552857db92be322ad.nq.gz",
-      "repolex": "aggregate/repolex/1c46efc2fe6c92904076a7a552857db92be322ad.nq.gz"
+      "repolex": "aggregate/repolex/1c46efc2fe6c92904076a7a552857db92be322ad.nq.gz",
+      "dep": "dep/1c46efc2fe6c92904076a7a552857db92be322ad.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "tox",
+          "packageVersion": "4.9.0",
+          "githubOrg": "tox-dev",
+          "githubRepo": "tox",
+          "githubCommit": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69"
+        },
+        {
+          "packageName": "coverage",
+          "packageVersion": "7.9.2",
+          "githubOrg": "nedbat",
+          "githubRepo": "coveragepy",
+          "githubCommit": "6e774923cf042751feb78036fcd46909d263be06"
+        },
+        {
+          "packageName": "hypothesis",
+          "packageVersion": "6.99.9",
+          "githubOrg": "HypothesisWorks",
+          "githubRepo": "hypothesis",
+          "githubCommit": "HEAD"
+        }
+      ]
     },
     {
       "commit": "e600d11e5d4e90b0d7f67882756fffc90a52eb36",
