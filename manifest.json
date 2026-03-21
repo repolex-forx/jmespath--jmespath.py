@@ -324,7 +324,31 @@
       ],
       "lsp": "aggregate/lsp/fd8af349160d2ab7fa5b0fa06dfe4fb513f9d7bc.nq.gz",
       "repolex": "aggregate/repolex/fd8af349160d2ab7fa5b0fa06dfe4fb513f9d7bc.nq.gz",
-      "tag": "0.2.1"
+      "tag": "0.2.1",
+      "dep": "dep/fd8af349160d2ab7fa5b0fa06dfe4fb513f9d7bc.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "tox",
+          "packageVersion": "4.9.0",
+          "githubOrg": "tox-dev",
+          "githubRepo": "tox",
+          "githubCommit": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69"
+        },
+        {
+          "packageName": "sphinx",
+          "packageVersion": "9.1.0rc2",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubCommit": "8ab960098a8e12b8893bd3ceafc394759118346b"
+        },
+        {
+          "packageName": "guzzle-sphinx-theme",
+          "packageVersion": "0.7.9",
+          "githubOrg": "guzzle",
+          "githubRepo": "guzzle_sphinx_theme",
+          "githubCommit": "2e3dabd73fdeda7e11661cf648695c259d3e932d"
+        }
+      ]
     },
     {
       "commit": "fd87696454ee10a38fc9c2622112d4be478615bc",
