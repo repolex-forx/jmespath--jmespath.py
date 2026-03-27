@@ -1,0 +1,172 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/jmespath/jmespath.py",
+  "@type": "gh:Repository",
+  "gh:name": "jmespath.py",
+  "gh:owner": "jmespath",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/fd87696454ee10a38fc9c2622112d4be478615bc",
+      "git:hexsha": "fd87696454ee10a38fc9c2622112d4be478615bc",
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "0.0.3",
+      "repolex:parsedAt": "2026-03-27T01:41:02.821965+00:00"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/9f51c778b96a2e515aa58054915420d24770dfa2",
+      "git:hexsha": "9f51c778b96a2e515aa58054915420d24770dfa2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/126621f3811922129a9f906231deabb6aaa6902a",
+      "git:hexsha": "126621f3811922129a9f906231deabb6aaa6902a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.0.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/54d06203a6664b9dc57486eec3b3444e0b8e0d9d",
+      "git:hexsha": "54d06203a6664b9dc57486eec3b3444e0b8e0d9d",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/1c46efc2fe6c92904076a7a552857db92be322ad",
+      "git:hexsha": "1c46efc2fe6c92904076a7a552857db92be322ad",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.10.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/e7df1178d723691080fe3fe3a5e5ecd5a1591efb",
+      "git:hexsha": "e7df1178d723691080fe3fe3a5e5ecd5a1591efb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/fd8af349160d2ab7fa5b0fa06dfe4fb513f9d7bc",
+      "git:hexsha": "fd8af349160d2ab7fa5b0fa06dfe4fb513f9d7bc",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.2.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/e23af23f8cdb1374eb8de2a1a596a82d0db3abcd",
+      "git:hexsha": "e23af23f8cdb1374eb8de2a1a596a82d0db3abcd",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/53999ed9d07e1cc2bd96876b45e5e834aad794e2",
+      "git:hexsha": "53999ed9d07e1cc2bd96876b45e5e834aad794e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.3.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/7e1c5b17b63c2c5b4a82b55bd909d0e1bad0198c",
+      "git:hexsha": "7e1c5b17b63c2c5b4a82b55bd909d0e1bad0198c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/10ec1b937c8bc9b8bb61bb18184abaad2f1f87e8",
+      "git:hexsha": "10ec1b937c8bc9b8bb61bb18184abaad2f1f87e8",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/b445f1356bd64b7537746ba751526c535caa2283",
+      "git:hexsha": "b445f1356bd64b7537746ba751526c535caa2283",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.5.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/7cdde2bb48e2cbaaeb5f8e54b84b500d3e30c54c",
+      "git:hexsha": "7cdde2bb48e2cbaaeb5f8e54b84b500d3e30c54c",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/5f23fbf1880e513495a67d52d493855f88b19460",
+      "git:hexsha": "5f23fbf1880e513495a67d52d493855f88b19460",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/dc5776981091c73a4598f7da1b23134027cef2a2",
+      "git:hexsha": "dc5776981091c73a4598f7da1b23134027cef2a2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.6.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/0466cc1212a357c7e73cf7f5a39d269716bfe6e2",
+      "git:hexsha": "0466cc1212a357c7e73cf7f5a39d269716bfe6e2",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/ee83029df6f7def56a63577710990eb8faa6f7c9",
+      "git:hexsha": "ee83029df6f7def56a63577710990eb8faa6f7c9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.7.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/361838dfe91e53d1a474aeec4b3e45ef67c1a329",
+      "git:hexsha": "361838dfe91e53d1a474aeec4b3e45ef67c1a329",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.8.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/048f59408570bbfcc60a197f6426fbda6d9c70f4",
+      "git:hexsha": "048f59408570bbfcc60a197f6426fbda6d9c70f4",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/79baf74115fc49089ca737f24757e968dfe16062",
+      "git:hexsha": "79baf74115fc49089ca737f24757e968dfe16062",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/6cde3b3aa3cdca5e844dd8ee0e43e0672972fb36",
+      "git:hexsha": "6cde3b3aa3cdca5e844dd8ee0e43e0672972fb36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.2"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/b4a3f4effb30d530863c19d13701fb2b967094e5",
+      "git:hexsha": "b4a3f4effb30d530863c19d13701fb2b967094e5",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/4a4f6dbd98549b2b8fc71bbc19860d317a6abfdb",
+      "git:hexsha": "4a4f6dbd98549b2b8fc71bbc19860d317a6abfdb",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.4"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/e824eee1daf65cac55e2abb67df9032c38eccae9",
+      "git:hexsha": "e824eee1daf65cac55e2abb67df9032c38eccae9",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "0.9.5"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/dffbc3db84dfb3daa64c0e656189a2f807cea77a",
+      "git:hexsha": "dffbc3db84dfb3daa64c0e656189a2f807cea77a",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/e600d11e5d4e90b0d7f67882756fffc90a52eb36",
+      "git:hexsha": "e600d11e5d4e90b0d7f67882756fffc90a52eb36",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.0.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/6ff419a8b171d055a9bfc6904605bceb8b7a80ef",
+      "git:hexsha": "6ff419a8b171d055a9bfc6904605bceb8b7a80ef",
+      "repolex:parseStatus": "pending",
+      "git:tagName": "1.1.0"
+    }
+  ]
+}
