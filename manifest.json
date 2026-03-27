@@ -679,7 +679,8 @@
           "packageVersion": "4.9.0",
           "githubOrg": "tox-dev",
           "githubRepo": "tox",
-          "githubCommit": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69"
+          "githubCommit": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69",
+          "githubTag": "4.9.0"
         }
       ]
     },

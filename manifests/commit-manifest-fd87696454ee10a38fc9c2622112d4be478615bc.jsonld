@@ -42,10 +42,43 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 105684
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/fd87696454ee10a38fc9c2622112d4be478615bc.nq.gz",
+      "repolex:graphFileSize": 935
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/fd87696454ee10a38fc9c2622112d4be478615bc.nq.gz",
+      "repolex:graphFileSize": 827825
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/fd87696454ee10a38fc9c2622112d4be478615bc.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/fd87696454ee10a38fc9c2622112d4be478615bc.nq.gz",
+      "repolex:graphFileSize": 369
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-27T01:41:02.821911+00:00",
   "repolex:parserVersion": "0.0.7",
-  "git:tagName": "0.0.3"
+  "git:tagName": "0.0.3",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tox-dev/tox",
+      "repolex:packageName": "tox",
+      "repolex:packageVersion": "4.9.0",
+      "git:hexsha": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69",
+      "git:tagName": "4.9.0"
+    }
+  ]
 }
