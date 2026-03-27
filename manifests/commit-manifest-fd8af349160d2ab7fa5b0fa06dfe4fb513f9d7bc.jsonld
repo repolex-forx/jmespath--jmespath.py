@@ -42,10 +42,57 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 105684
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/fd8af349160d2ab7fa5b0fa06dfe4fb513f9d7bc.nq.gz",
+      "repolex:graphFileSize": 982
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/fd8af349160d2ab7fa5b0fa06dfe4fb513f9d7bc.nq.gz",
+      "repolex:graphFileSize": 1421082
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/fd8af349160d2ab7fa5b0fa06dfe4fb513f9d7bc.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/fd8af349160d2ab7fa5b0fa06dfe4fb513f9d7bc.nq.gz",
+      "repolex:graphFileSize": 611
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-27T01:54:55.968500+00:00",
   "repolex:parserVersion": "0.0.7",
-  "git:tagName": "0.2.1"
+  "git:tagName": "0.2.1",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/tox-dev/tox",
+      "repolex:packageName": "tox",
+      "repolex:packageVersion": "4.9.0",
+      "git:hexsha": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69",
+      "git:tagName": "4.9.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/sphinx-doc/sphinx",
+      "repolex:packageName": "sphinx",
+      "repolex:packageVersion": "9.1.0rc2",
+      "git:hexsha": "8ab960098a8e12b8893bd3ceafc394759118346b",
+      "git:tagName": "v9.1.0rc2"
+    },
+    {
+      "@id": "https://repolex.ai/r/guzzle/guzzle_sphinx_theme",
+      "repolex:packageName": "guzzle-sphinx-theme",
+      "repolex:packageVersion": "0.7.9",
+      "git:hexsha": "2e3dabd73fdeda7e11661cf648695c259d3e932d",
+      "git:tagName": "0.7.9"
+    }
+  ]
 }
