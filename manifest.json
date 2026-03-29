@@ -4208,25 +4208,48 @@
       "dep": "dep/e600d11e5d4e90b0d7f67882756fffc90a52eb36.nq.gz",
       "dependencies": [
         {
+          "packageName": "wheel",
+          "ecosystem": "PYPI",
+          "version": "0.24.0",
+          "githubOrg": "pypa",
+          "githubRepo": "wheel",
+          "githubCommit": "cd0935c4fe92a15ea83057a9357347ae8d6a138e",
+          "githubTag": "0.24.0",
+          "githubUrl": "https://github.com/pypa/wheel",
+          "source": "build_file:requirements.txt"
+        },
+        {
           "packageName": "pytest",
-          "packageVersion": "9.0.2",
+          "ecosystem": "PYPI",
+          "version": "6.2.5",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest",
-          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+          "githubCommit": "1569fac603d9a50022e1474b494eebf970a2a3af",
+          "githubTag": "6.2.5",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-cov",
-          "packageVersion": "7.0.0",
+          "ecosystem": "PYPI",
+          "version": "3.0.0",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest-cov",
-          "githubCommit": "224d8964caad90074a8cf6dc8720b8f70f31629b"
+          "githubCommit": "560b95575efe9e55874bc8bbc99de1dd2db80ba9",
+          "githubTag": "v3.0.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "hypothesis",
-          "packageVersion": "6.99.9",
+          "ecosystem": "PYPI",
+          "version": "3.1.0",
           "githubOrg": "HypothesisWorks",
           "githubRepo": "hypothesis",
-          "githubCommit": "HEAD"
+          "githubCommit": "f242874b72c3a531267213895776cbba8964ea1f",
+          "githubTag": "3.1.0",
+          "githubUrl": "https://github.com/HypothesisWorks/hypothesis",
+          "source": "build_file:requirements.txt"
         }
       ]
     },
