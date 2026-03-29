@@ -42,10 +42,70 @@
       "repolex:graphType": "pr",
       "repolex:graphFilePath": "pr/pr.nq.gz",
       "repolex:graphFileSize": 105684
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/6ff419a8b171d055a9bfc6904605bceb8b7a80ef.nq.gz",
+      "repolex:graphFileSize": 69
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/6ff419a8b171d055a9bfc6904605bceb8b7a80ef.nq.gz",
+      "repolex:graphFileSize": 3583738
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/6ff419a8b171d055a9bfc6904605bceb8b7a80ef.nq.gz",
+      "repolex:graphFileSize": 65
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/6ff419a8b171d055a9bfc6904605bceb8b7a80ef.nq.gz",
+      "repolex:graphFileSize": 900
     }
   ],
   "repolex:parseStatus": "parsed",
   "repolex:parsedAt": "2026-03-29T09:24:28.238266+00:00",
   "repolex:parserVersion": "0.1.0",
-  "git:tagName": "1.1.0"
+  "git:tagName": "1.1.0",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pypa/wheel",
+      "repolex:packageName": "wheel",
+      "git:hexsha": "7855525de4093257e7bfb434877265e227356566",
+      "git:tagName": "0.45.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest",
+      "repolex:packageName": "pytest",
+      "git:hexsha": "8d99211f0ce3927eb7ee579f7b4f969da06dc787",
+      "git:tagName": "8.4.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pytest-dev/pytest-cov",
+      "repolex:packageName": "pytest-cov",
+      "git:hexsha": "560b95575efe9e55874bc8bbc99de1dd2db80ba9",
+      "git:tagName": "v3.0.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/HypothesisWorks/hypothesis",
+      "repolex:packageName": "hypothesis"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "08bd31115732ece3cca50bd93f338e1b90dead34",
+      "git:tagName": "v71.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/packaging",
+      "repolex:packageName": "packaging",
+      "git:hexsha": "85442b8032cb7bae72866dfd7782234a98dd2fb7",
+      "git:tagName": "24.1"
+    }
+  ]
 }

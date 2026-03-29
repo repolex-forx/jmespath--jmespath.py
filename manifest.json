@@ -4578,32 +4578,68 @@
       "dep": "dep/6ff419a8b171d055a9bfc6904605bceb8b7a80ef.nq.gz",
       "dependencies": [
         {
+          "packageName": "wheel",
+          "ecosystem": "PYPI",
+          "version": "0.45.1",
+          "githubOrg": "pypa",
+          "githubRepo": "wheel",
+          "githubCommit": "7855525de4093257e7bfb434877265e227356566",
+          "githubTag": "0.45.1",
+          "githubUrl": "https://github.com/pypa/wheel",
+          "source": "build_file:requirements.txt"
+        },
+        {
           "packageName": "pytest",
-          "packageVersion": "9.0.2",
+          "ecosystem": "PYPI",
+          "version": "8.4.1",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest",
-          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+          "githubCommit": "8d99211f0ce3927eb7ee579f7b4f969da06dc787",
+          "githubTag": "8.4.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-cov",
-          "packageVersion": "7.0.0",
+          "ecosystem": "PYPI",
+          "version": "3.0.0",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest-cov",
-          "githubCommit": "224d8964caad90074a8cf6dc8720b8f70f31629b"
+          "githubCommit": "560b95575efe9e55874bc8bbc99de1dd2db80ba9",
+          "githubTag": "v3.0.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "hypothesis",
-          "packageVersion": "6.99.9",
+          "ecosystem": "PYPI",
+          "version": "5.35.4",
           "githubOrg": "HypothesisWorks",
           "githubRepo": "hypothesis",
-          "githubCommit": "HEAD"
+          "githubUrl": "https://github.com/HypothesisWorks/hypothesis",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "71.1.0",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "08bd31115732ece3cca50bd93f338e1b90dead34",
+          "githubTag": "v71.1.0",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "packaging",
-          "packageVersion": "26.0.0rc3",
+          "ecosystem": "PYPI",
+          "version": "24.1",
           "githubOrg": "pypa",
           "githubRepo": "packaging",
-          "githubCommit": "HEAD"
+          "githubCommit": "85442b8032cb7bae72866dfd7782234a98dd2fb7",
+          "githubTag": "24.1",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "build_file:requirements.txt"
         }
       ]
     }
