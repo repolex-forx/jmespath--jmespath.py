@@ -1722,24 +1722,36 @@
       "dependencies": [
         {
           "packageName": "tox",
-          "packageVersion": "4.9.0",
+          "ecosystem": "PYPI",
+          "version": "1.4.2",
           "githubOrg": "tox-dev",
           "githubRepo": "tox",
-          "githubCommit": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69"
+          "githubCommit": "2740e71a4d0c29b10e8e9647bcf678c13e86f2ce",
+          "githubTag": "1.4.2",
+          "githubUrl": "https://github.com/tox-dev/tox",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "sphinx",
-          "packageVersion": "9.1.0rc2",
+          "ecosystem": "PYPI",
+          "version": "1.2",
           "githubOrg": "sphinx-doc",
           "githubRepo": "sphinx",
-          "githubCommit": "8ab960098a8e12b8893bd3ceafc394759118346b"
+          "githubCommit": "2a86eff841ffc9916995f5831113c15e68d8b901",
+          "githubTag": "v1.2",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "guzzle-sphinx-theme",
-          "packageVersion": "0.7.9",
+          "ecosystem": "PYPI",
+          "version": "0.3.1",
           "githubOrg": "guzzle",
           "githubRepo": "guzzle_sphinx_theme",
-          "githubCommit": "2e3dabd73fdeda7e11661cf648695c259d3e932d"
+          "githubCommit": "dede52df35ca09797370bde23dfae5e50c38b066",
+          "githubTag": "0.3.1",
+          "githubUrl": "https://github.com/guzzle/guzzle_sphinx_theme",
+          "source": "build_file:requirements.txt"
         }
       ]
     },
