@@ -3841,24 +3841,45 @@
       "dependencies": [
         {
           "packageName": "tox",
-          "packageVersion": "4.9.0",
+          "ecosystem": "PYPI",
+          "version": "1.4.2",
           "githubOrg": "tox-dev",
           "githubRepo": "tox",
-          "githubCommit": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69"
+          "githubCommit": "2740e71a4d0c29b10e8e9647bcf678c13e86f2ce",
+          "githubTag": "1.4.2",
+          "githubUrl": "https://github.com/tox-dev/tox",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "wheel",
+          "ecosystem": "PYPI",
+          "version": "0.24.0",
+          "githubOrg": "pypa",
+          "githubRepo": "wheel",
+          "githubCommit": "cd0935c4fe92a15ea83057a9357347ae8d6a138e",
+          "githubTag": "0.24.0",
+          "githubUrl": "https://github.com/pypa/wheel",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "coverage",
-          "packageVersion": "7.9.2",
-          "githubOrg": "nedbat",
+          "ecosystem": "PYPI",
+          "version": "5.0.3",
+          "githubOrg": "coveragepy",
           "githubRepo": "coveragepy",
-          "githubCommit": "6e774923cf042751feb78036fcd46909d263be06"
+          "githubUrl": "https://github.com/coveragepy/coveragepy",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "hypothesis",
-          "packageVersion": "6.99.9",
+          "ecosystem": "PYPI",
+          "version": "3.1.0",
           "githubOrg": "HypothesisWorks",
           "githubRepo": "hypothesis",
-          "githubCommit": "HEAD"
+          "githubCommit": "f242874b72c3a531267213895776cbba8964ea1f",
+          "githubTag": "3.1.0",
+          "githubUrl": "https://github.com/HypothesisWorks/hypothesis",
+          "source": "build_file:requirements.txt"
         }
       ]
     },
