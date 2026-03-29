@@ -79,8 +79,9 @@
     {
       "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/b445f1356bd64b7537746ba751526c535caa2283",
       "git:hexsha": "b445f1356bd64b7537746ba751526c535caa2283",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "0.5.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "0.5.0",
+      "repolex:parsedAt": "2026-03-29T08:36:16.273236+00:00"
     },
     {
       "@id": "https://repolex.ai/r/jmespath/jmespath.py/commit/7cdde2bb48e2cbaaeb5f8e54b84b500d3e30c54c",
